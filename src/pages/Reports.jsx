@@ -1,5 +1,7 @@
 export default function Reports() {
   return (
-    <h1>Reports</h1>
+    <div className="reports">
+      <h1>Reports</h1>
+    </div>
   )
 }

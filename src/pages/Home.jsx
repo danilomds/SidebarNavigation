@@ -1,5 +1,8 @@
 export default function Home() {
   return (
-    <h1>Home Application</h1>
+    <div className="home">
+      <h1>Home</h1>
+    </div>
+    
   )
 }
