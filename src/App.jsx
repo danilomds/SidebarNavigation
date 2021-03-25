@@ -5,6 +5,9 @@ import './global/globalStyle.css';
 import Home from './pages/Home';
 import Reports from './pages/Reports';
 import Products from './pages/Products';
+import Team from './pages/Team';
+import Messages from './pages/Messages';
+import Support from './pages/Support';
 
 function App() {
   return (
@@ -12,9 +15,12 @@ function App() {
    <Router>
     <Navbar />
      <Switch>
-        <Route path='/' component={Home} exact />
+        <Route path='/' exact component={Home} />
         <Route path='/reports' component={Reports} />
         <Route path='/products' component={Products} />
+        <Route path='/team' component={Team} />
+        <Route path='/messages' component={Messages} />
+        <Route path='/support' component={Support} />  
       </Switch>
    </Router>      
    </>
